@@ -1,0 +1,57 @@
+REGISTER_EMPLOYEE :>
+EMPLOYEE_REGISTRATION_SUCCEEDED
+
+REGISTER_EMPLOYEE :>
+EMPLOYEE_REGISTRATION_SUCCEEDED
+
+REGISTER_EMPLOYEE :>
+EMPLOYEE_REGISTRATION_SUCCEEDED
+
+REGISTER_EMPLOYEE :>
+EMPLOYEE_REGISTRATION_SUCCEEDED
+
+REGISTER_EMPLOYEE :>
+EMPLOYEE_REGISTRATION_SUCCEEDED
+
+REGISTER_EMPLOYEE :>
+EMPLOYEE_REGISTRATION_SUCCEEDED
+
+ASSIGN_MANAGER :>
+MANAGER_ASSIGNMENT_SUCCEEDED
+
+ASSIGN_MANAGER :>
+MANAGER_ASSIGNMENT_SUCCEEDED
+
+ASSIGN_MANAGER :>
+MANAGER_ASSIGNMENT_SUCCEEDED
+
+ASSIGN_MANAGER :>
+MANAGER_ASSIGNMENT_SUCCEEDED
+
+ASSIGN_MANAGER :>
+MANAGER_ASSIGNMENT_SUCCEEDED
+
+GET_DIRECT_REPORTS :>
+[Employee [name=D, gender=MALE], Employee [name=E, gender=MALE]]
+
+GET_DIRECT_REPORTS :>
+[]
+
+GET_DIRECT_REPORTS :>
+[Employee [name=B, gender=MALE], Employee [name=C, gender=MALE]]
+
+GET_TEAMMATES :>
+[Employee [name=B, gender=MALE], Employee [name=C, gender=MALE]]
+
+GET_TEAMMATES :>
+[Employee [name=A, gender=MALE], Employee [name=B, gender=MALE], Employee [name=C, gender=MALE]]
+
+EMPLOYEE_HIERARCHY :>
+Employee [name=A, gender=MALE]	
+Employee [name=B, gender=MALE]	Employee [name=C, gender=MALE]	
+Employee [name=D, gender=MALE]	Employee [name=E, gender=MALE]	Employee [name=F, gender=MALE]	
+
+EMPLOYEE_HIERARCHY :>
+Employee [name=B, gender=MALE]	
+Employee [name=D, gender=MALE]	Employee [name=E, gender=MALE]	
+
